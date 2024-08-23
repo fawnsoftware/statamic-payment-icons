@@ -1,0 +1,41 @@
+{
+    "name": "arrowtide/statamic-payment-icons",
+    "autoload": {
+        "psr-4": {
+            "Arrowtide\\StatamicPaymentIcons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Arrowtide\\StatamicPaymentIcons\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.18.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Payment Icons",
+            "description": "Statamic Payment Icons addon for the dictionary field"
+        },
+        "laravel": {
+            "providers": [
+                "Arrowtide\\StatamicPaymentIcons\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

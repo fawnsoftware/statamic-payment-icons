@@ -1,0 +1,6 @@
+node_modules
+vendor
+mix-manifest.json
+.phpunit.cache
+.phpunit.result.cache
+.DS_Store
