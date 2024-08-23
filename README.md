@@ -27,41 +27,41 @@ Once you've installed this addon, you are now ready to use this dictionary withi
 Your blueprint field will look something like this:
 ```yaml
 -
-	handle: payment_methods
-	field:
-		dictionary: payment_icons
-		type: dictionary
-		display: 'Dictionary Field'
-		localizable: false
+  handle: payment_methods
+  field:
+    dictionary: payment_icons
+    type: dictionary
+    display: 'Dictionary Field'
+    localizable: false
 ```
 
 
 Once you have selected your payment methods and saved, you'll get something like:
 ```yaml
 payment_methods:
-	- klarna
-	- american_express
+  - klarna
+  - amex
 ```
 
 Now you're ready to template it up!
 
-```handlebars
+```antlers
 {{ payment_methods }}
 
-    <!-- To display the icon -->
-    {{ svg :src="icon" }}
+  <!-- To display the icon -->
+  {{ svg :src="icon" }}
 
-    <!-- Make the icon bigger? -->
-    {{ svg :src="icon" class="w-12 h-auto" }}
+  <!-- Make the icon bigger? -->
+  {{ svg :src="icon" class="w-12 h-auto" }}
 
-    <!-- Rounded corners with a border? -->
-    {{ svg :src="icon" class="border rounded border-black/10" }}
+  <!-- Rounded corners with a border? -->
+  {{ svg :src="icon" class="border rounded border-black/10" }}
 
-    <!-- To get the name of the payment method -->
-    {{ name }}
+  <!-- To get the name of the payment method -->
+  {{ name }}
 
-    <!-- To get the ID (value) -->
-    {{ value }}
+  <!-- To get the ID (value) -->
+  {{ value }}
 
 {{ /payment_methods }}
 ```
