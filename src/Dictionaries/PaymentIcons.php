@@ -10,7 +10,6 @@ use Stringy\StaticStringy;
 
 class PaymentIcons extends BasicDictionary
 {
-
     protected function getItemLabel(array $item): string
     {
         $style = 'display: flex; align-items: center; gap: 0.6rem; margin-top: 0.4rem; margin-bottom: 0.4rem;';
@@ -71,7 +70,7 @@ class PaymentIcons extends BasicDictionary
 
         $payments = collect($payments)->map(function ($payment) use ($cascade) {
             $fileName = Str::ensureRight($payment['value'], '.svg');
-    
+
             foreach ($cascade as $location) {
                 $file = Url::assemble($location, $fileName);
                 if (File::exists($file)) {
@@ -80,10 +79,10 @@ class PaymentIcons extends BasicDictionary
                     break;
                 }
             }
-        
+
             return $payment;
-            
-        })->sortBy('name', SORT_NATURAL|SORT_FLAG_CASE)->values()->all();
+
+        })->sortBy('name', SORT_NATURAL | SORT_FLAG_CASE)->values()->all();
 
         return $payments;
     }

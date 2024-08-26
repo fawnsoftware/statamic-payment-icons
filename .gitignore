@@ -5,3 +5,4 @@ mix-manifest.json
 .phpunit.result.cache
 .DS_Store
 .idea/
+composer.lock
