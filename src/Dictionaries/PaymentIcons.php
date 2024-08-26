@@ -14,7 +14,7 @@ class PaymentIcons extends BasicDictionary
     protected function getItemLabel(array $item): string
     {
         $style = 'display: flex; align-items: center; gap: 0.6rem; margin-top: 0.4rem; margin-bottom: 0.4rem;';
-        $spanStyle = 'border: 2px solid #00000017; display: flex; border-radius: 7px; overflow: hidden;';
+        $spanStyle = 'border: 2px solid #00000017; display: flex; border-radius: 7px; overflow: hidden; min-width: 38px;';
 
         return "<span style=\"{$style}\"><span style=\"{$spanStyle}\">{$item['icon']}</span> {$item['label']}</span>";
     }
