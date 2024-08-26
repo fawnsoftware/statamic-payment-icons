@@ -1,6 +1,6 @@
 # Statamic Payment Icons
 
-Payment Icons for Statamic leverages the brand new [dictionary fieldtype.](https://statamic.dev/fieldtypes/dictionary#overview)  feature to provide you a consistent set of payment icons for your websites, apps, or whatever else you're doing with Statamic!
+Payment Icons for Statamic leverages the brand new [dictionary fieldtype](https://statamic.dev/fieldtypes/dictionary)  feature to provide you a consistent set of payment icons for your websites, apps, or whatever else you're doing with Statamic!
 
 ## Features 
 
@@ -8,8 +8,6 @@ Payment Icons for Statamic leverages the brand new [dictionary fieldtype.](https
 - ✅ Dictionary support
 - ✅ Override icons
 - ✅ Hard edge corners so you can style them how you like!
-
-  
 
 ## How to Install
 
@@ -31,7 +29,7 @@ Your blueprint field will look something like this:
   field:
     dictionary: payment_icons
     type: dictionary
-    display: 'Dictionary Field'
+    display: 'Payment Methods'
     localizable: false
 ```
 
