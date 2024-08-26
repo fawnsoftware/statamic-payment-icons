@@ -4,7 +4,7 @@ Payment Icons for Statamic leverages the brand new [dictionary fieldtype](https:
 
 ## Features 
 
-- ✅ 30+ payment icons
+- ✅ 40+ payment icons
 - ✅ Dictionary support
 - ✅ Override icons
 - ✅ Hard edge corners so you can style them how you like!

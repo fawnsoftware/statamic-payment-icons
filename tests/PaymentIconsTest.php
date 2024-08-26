@@ -8,7 +8,7 @@ class PaymentIconsTest extends TestCase
 {
     public function test_payment_icons_items()
     {
-        $paymentIcons = new PaymentIcons();
+        $paymentIcons = new PaymentIcons;
         $reflection = new \ReflectionClass($paymentIcons);
         $method = $reflection->getMethod('getItems');
         $method->setAccessible(true);
@@ -45,17 +45,17 @@ class PaymentIconsTest extends TestCase
 
     public function test_no_duplicate_ids()
     {
-        $paymentIcons = new PaymentIcons();
-    
+        $paymentIcons = new PaymentIcons;
+
         // Use reflection to access the protected getItems method
         $reflection = new \ReflectionClass($paymentIcons);
         $method = $reflection->getMethod('getItems');
         $method->setAccessible(true);
-    
+
         $items = $method->invoke($paymentIcons);
         $ids = array_column($items, 'id');
         $uniqueIds = array_unique($ids);
-    
+
         $this->assertEquals(count($ids), count($uniqueIds), 'There are duplicate IDs in the items.');
     }
 }
