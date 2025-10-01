@@ -1,6 +1,6 @@
 <?php
 
-namespace Fawn\StatamicPaymentIcons;
+namespace FawnSoftware\StatamicPaymentIcons;
 
 use Statamic\Providers\AddonServiceProvider;
 

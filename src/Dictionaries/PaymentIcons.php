@@ -1,6 +1,6 @@
 <?php
 
-namespace Fawn\StatamicPaymentIcons\Dictionaries;
+namespace FawnSoftware\StatamicPaymentIcons\Dictionaries;
 
 use Statamic\Dictionaries\BasicDictionary;
 use Statamic\Facades\File;
