@@ -1,13 +1,13 @@
 {
-    "name": "fawn/statamic-payment-icons",
+    "name": "fawnsoftware/statamic-payment-icons",
     "autoload": {
         "psr-4": {
-            "Fawn\\StatamicPaymentIcons\\": "src"
+            "FawnSoftware\\StatamicPaymentIcons\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fawn\\StatamicPaymentIcons\\Tests\\": "tests"
+            "FawnSoftware\\StatamicPaymentIcons\\Tests\\": "tests"
         }
     },
     "require": {
@@ -35,7 +35,7 @@
         },
         "laravel": {
             "providers": [
-                "Fawn\\StatamicPaymentIcons\\ServiceProvider"
+                "FawnSoftware\\StatamicPaymentIcons\\ServiceProvider"
             ]
         }
     },

@@ -1,8 +1,8 @@
 <?php
 
-namespace Fawn\StatamicPaymentIcons\Tests;
+namespace FawnSoftware\StatamicPaymentIcons\Tests;
 
-use Fawn\StatamicPaymentIcons\Dictionaries\PaymentIcons;
+use FawnSoftware\StatamicPaymentIcons\Dictionaries\PaymentIcons;
 
 class PaymentIconsTest extends TestCase
 {

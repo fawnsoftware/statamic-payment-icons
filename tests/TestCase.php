@@ -1,8 +1,8 @@
 <?php
 
-namespace Fawn\StatamicPaymentIcons\Tests;
+namespace FawnSoftware\StatamicPaymentIcons\Tests;
 
-use Fawn\StatamicPaymentIcons\ServiceProvider;
+use FawnSoftware\StatamicPaymentIcons\ServiceProvider;
 use Statamic\Testing\AddonTestCase;
 
 abstract class TestCase extends AddonTestCase
