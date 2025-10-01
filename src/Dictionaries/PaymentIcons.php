@@ -1,6 +1,6 @@
 <?php
 
-namespace Arrowtide\StatamicPaymentIcons\Dictionaries;
+namespace Fawn\StatamicPaymentIcons\Dictionaries;
 
 use Statamic\Dictionaries\BasicDictionary;
 use Statamic\Facades\File;

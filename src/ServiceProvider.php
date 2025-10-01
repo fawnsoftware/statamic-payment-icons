@@ -1,6 +1,6 @@
 <?php
 
-namespace Arrowtide\StatamicPaymentIcons;
+namespace Fawn\StatamicPaymentIcons;
 
 use Statamic\Providers\AddonServiceProvider;
 
