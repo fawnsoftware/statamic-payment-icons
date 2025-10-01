@@ -1,5 +1,5 @@
 {
-    "name": "fawnsoft/statamic-payment-icons",
+    "name": "fawn/statamic-payment-icons",
     "autoload": {
         "psr-4": {
             "Arrowtide\\StatamicPaymentIcons\\": "src"
