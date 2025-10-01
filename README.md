@@ -12,7 +12,7 @@ Payment Icons for Statamic leverages the brand new [dictionary fieldtype](https:
 ## How to Install
 
 ``` bash
-composer require fawn/statamic-payment-icons
+composer require fawnsoftware/statamic-payment-icons
 ```
 
 ## How to Use
