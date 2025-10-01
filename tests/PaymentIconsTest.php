@@ -1,8 +1,8 @@
 <?php
 
-namespace Arrowtide\StatamicPaymentIcons\Tests;
+namespace Fawn\StatamicPaymentIcons\Tests;
 
-use Arrowtide\StatamicPaymentIcons\Dictionaries\PaymentIcons;
+use Fawn\StatamicPaymentIcons\Dictionaries\PaymentIcons;
 
 class PaymentIconsTest extends TestCase
 {

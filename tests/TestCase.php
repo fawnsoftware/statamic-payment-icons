@@ -1,8 +1,8 @@
 <?php
 
-namespace Arrowtide\StatamicPaymentIcons\Tests;
+namespace Fawn\StatamicPaymentIcons\Tests;
 
-use Arrowtide\StatamicPaymentIcons\ServiceProvider;
+use Fawn\StatamicPaymentIcons\ServiceProvider;
 use Statamic\Testing\AddonTestCase;
 
 abstract class TestCase extends AddonTestCase

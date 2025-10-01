@@ -2,7 +2,7 @@
 
 Payment Icons for Statamic leverages the brand new [dictionary fieldtype](https://statamic.dev/fieldtypes/dictionary)  feature to provide you a consistent set of payment icons for your websites, apps, or whatever else you're doing with Statamic!
 
-## Features 
+## Features
 
 - ✅ 40+ payment icons
 - ✅ Dictionary support
@@ -12,7 +12,7 @@ Payment Icons for Statamic leverages the brand new [dictionary fieldtype](https:
 ## How to Install
 
 ``` bash
-composer require arrowtide/statamic-payment-icons
+composer require fawn/statamic-payment-icons
 ```
 
 ## How to Use
@@ -72,7 +72,7 @@ In the rare occasion you might need to override a payment icon on a specific pro
 
 ## Icon requests
 
-Please make an issue and submit the following information. 
+Please make an issue and submit the following information.
 
 - Name of the payment method
 - Payment method variant if applicable (Pay in 3, Pay in 6 etc)
