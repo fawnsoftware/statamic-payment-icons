@@ -11,12 +11,12 @@
         }
     },
     "require": {
-        "statamic/cms": "^5.18.0"
+        "statamic/cms": "^5.18.0|^6.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^8.0 || ^9.0",
-        "phpunit/phpunit": "^9.0 || ^10.0 || ^11.0",
-        "laravel/pint": "^1.17"
+        "orchestra/testbench": "^10.0",
+        "phpunit/phpunit": "^12.0",
+        "laravel/pint": "^1.27"
     },
     "config": {
         "allow-plugins": {
@@ -39,6 +39,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
