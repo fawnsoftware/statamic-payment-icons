@@ -3,7 +3,6 @@
 namespace FawnSoftware\StatamicPaymentIcons\Dictionaries;
 
 use Statamic\Dictionaries\BasicDictionary;
-use Statamic\Facades\Antlers;
 use Statamic\Facades\File;
 use Statamic\Facades\URL;
 use Statamic\Support\Str;
